@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*This body contains the image of the movie poster*/
+body{
+	font-family: times;
+	margin: 0;
+	padding: 0;
+	background-image: url("fast-furious.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+/*header contains the tiltle of movie as well as h1 and h2*/
+header{
+	margin-left: 30%;
+	margin-top: 25%;
+	line-height: 5px;
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+}
+h1{
+	font-family: agency FB;
+	font-size: 75px;
+	text-shadow: 2px 5px 5px;
+	color: #b9cbc0;
+
+}
+h2{
+	font-family: agency FB;
+	font-size: 60px;
+	color: #b9cbc0;
+	margin-left: 100px;
+	line-height: 0px;
+	text-shadow: 2px 5px 5px;
+	margin-top: 60px;
+}
+#fast{
+	margin-left: 50px;
+}
+/*this aside contains the tag line of movie poster*/
+aside{
+	color: #881321;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: agency FB;
+	margin-left: 70%;
+	margin-top: 0%;
+	position: relative;
+	word-spacing: 10px;
+
+}
+article{
+	color: #881;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: agency FB;
+	margin-left: 5%;
+	margin-top: -20%;
+	position: relative;
+	word-spacing: 10px;
+}
+/*this section contains the name of actors and the top written words too*/
+section{
+	font-family: agency FB;
+	font-size: 34px;
+	color: #fac6a3;
+	line-height: 33px;
+	position: relative;
+}
+#paul{
+	margin-left: -70%;
+	margin-top: 10%;
+	text-align: center;
+}
+#michelle{
+	margin-left: -35%;
+	margin-top: -7%;
+	text-align: center;
+}
+#vin{
+	margin-left: 0%;
+	margin-top: -7%;
+	text-align: center;
+}
+#jordana{
+	margin-left: 35%;
+	margin-top: -7%;
+	text-align: center;
+}
+#top{
+	margin-top: -42%;
+	margin-left: 38%;
+	font-weight: bold;
+	font-size: 25px;
+	color: black;
+	word-spacing: 2px;
+}
+/*footer contains copyright line*/
+footer{
+	position: relative;
+	color: white;
+}
+#copyright{
+	margin-top: 25%;
+	margin-left: 75%;
+}
